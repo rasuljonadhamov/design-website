@@ -33,3 +33,15 @@ a {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+/* SITE HEADER */
+
+.header {
+  padding-top: 34px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
