@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template</title>
+    <title>Design</title>
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -12,7 +12,7 @@
     <header class="header">
       <div class="container header-container">
         <img src="./images/logo.svg" alt="Site logo" height="64" width="64" />
-        <a href="index.html">Free Consultation</a>
+        <a class="header-btn" href="index.html">Free Consultation</a>
       </div>
     </header>
     <!-- Header End -->
@@ -21,7 +21,65 @@
     <main>
       <section class="hero">
         <div class="hero-container container">
-          <div class="hero-wrapper"></div>
+          <h1 class="hero-heading">Design solutions made easy</h1>
+          <p class="hero-text">
+            With over ten years of experience in various design disciplines, I’m
+            your one-stop shop for your design needs.
+          </p>
+
+          <ul class="hero-list">
+            <!-- LEFT CARD -->
+            <li class="hero-item">
+              <img
+                src="./images/hero-graph.svg"
+                alt=""
+                class="hero-grapx-img"
+                width="128"
+                height="192"
+              />
+              <h3 class="hero-item-title">Graphic Design</h3>
+            </li>
+
+            <!-- MIDDLE APP -->
+            <li class="hero-apps">
+              <div class="hero-apps-wrapper">
+                <div class="ux-wrapper">
+                  <img src="./images/ui-ux.svg" width="64" height="64" />
+                  <p class="ui-text">UI/UX</p>
+                </div>
+
+                <div class="app-wrapper">
+                  <img src="./images/apps.svg" width="64" height="64" />
+                  <p class="ui-text">Apps</p>
+                </div>
+              </div>
+
+              <div class="illustration-wrapper">
+                <img
+                  src="./images/illustration.svg"
+                  alt=""
+                  width="128"
+                  height="64"
+                />
+                <p class="illustration-text">Illustrations</p>
+              </div>
+            </li>
+
+            <!-- RIGHT CARD -->
+            <li class="hero-course">
+              <div class="hero-course-wrapper">
+                <div class="photography-wrapper">
+                  <img src="./images/photography.svg" width="160" height="64" />
+                  <p class="photography-text">Photography</p>
+                </div>
+
+                <div class="app-wrapper">
+                  <img src="./images/motion.svg" width="128" height="64" />
+                  <p class="ui-text">Motion Graphics</p>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
